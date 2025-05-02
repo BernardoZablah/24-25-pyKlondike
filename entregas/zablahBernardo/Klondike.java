@@ -3,12 +3,16 @@ package zablahBernardo;
 public class Klondike {
     private Baraja baraja;
     private Descarte descarte;
-
+    private Palos palos;
+    private Columnas columnas;
+    
     private int NUMERO_PALOS = 0;
 
     public Klondike(){
         baraja = new Baraja();
         descarte = new Descarte();
+        palos = new Palos();
+        columnas = new Columnas();
     }
 
     public void jugar() {
@@ -28,6 +32,6 @@ public class Klondike {
     }
 
     private void imprimeOpciones(){
-
+        
     }
 }
